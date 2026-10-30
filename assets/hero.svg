@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Gabriel Alencar, Software Engineer">
+<style>
+.n{font:700 44px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#fff}
+.r{font:400 18px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#8fd3f4}
+.t{font:14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c9d1d9}
+.p{fill:#3fb950}
+.l{animation:type 12s steps(44) infinite}
+.b{animation:type 12s steps(44) infinite 2s}
+.c{animation:type 12s steps(44) infinite 4s}
+.o{animation:pulse 4s ease-in-out infinite}
+.d{animation:drift 9s linear infinite}
+.k{animation:blink 1s steps(2) infinite}
+@keyframes type{0%{width:0}18%,88%{width:420px}100%{width:0}}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:.6}}
+@keyframes drift{from{transform:translateX(-40px)}to{transform:translateX(40px)}}
+@keyframes blink{50%{opacity:0}}
+</style>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#003a57"/></linearGradient>
+<radialGradient id="h"><stop offset="0" stop-color="#2f9bd8"/><stop offset="1" stop-color="#2f9bd8" stop-opacity="0"/></radialGradient>
+<clipPath id="a"><rect class="l" x="478" y="104" width="0" height="26"/></clipPath>
+<clipPath id="b"><rect class="b" x="478" y="140" width="0" height="26"/></clipPath>
+<clipPath id="c"><rect class="c" x="478" y="176" width="0" height="26"/></clipPath>
+</defs>
+<rect width="900" height="270" rx="14" fill="url(#g)"/>
+<g class="d"><circle class="o" cx="160" cy="60" r="130" fill="url(#h)"/><circle class="o" cx="760" cy="230" r="150" fill="url(#h)"/></g>
+<text x="44" y="120" class="n">Gabriel Alencar</text>
+<text x="46" y="154" class="r">Software Engineer | Backend Java</text>
+<rect x="46" y="176" width="64" height="4" rx="2" fill="#2f9bd8"/>
+<rect x="456" y="52" width="404" height="172" rx="10" fill="#010409" fill-opacity=".82" stroke="#30363d"/>
+<circle cx="476" cy="74" r="5" fill="#ff5f56"/><circle cx="494" cy="74" r="5" fill="#ffbd2e"/><circle cx="512" cy="74" r="5" fill="#27c93f"/>
+<g clip-path="url(#a)"><text x="478" y="122" class="t"><tspan class="p">$</tspan> stack: Java, Spring Boot, Kafka</text></g>
+<g clip-path="url(#b)"><text x="478" y="158" class="t"><tspan class="p">$</tspan> cloud: Azure (AKS), AWS</text></g>
+<g clip-path="url(#c)"><text x="478" y="194" class="t"><tspan class="p">$</tspan> foco: microsserviços no setor financeiro</text></g>
+<rect class="k" x="478" y="206" width="9" height="3" fill="#3fb950"/>
+</svg>
